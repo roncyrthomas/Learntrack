@@ -58,9 +58,10 @@ public class Main {
                 printSection("STUDENT MANAGEMENT");
                 System.out.println("1. Create Student");
                 System.out.println("2. View All Students");
-                System.out.println("3. Activate Student");
-                System.out.println("4. Deactivate Student");
-                System.out.println("5. Search Student by ID");
+                System.out.println("3. View Active Students");
+                System.out.println("4. Activate Student");
+                System.out.println("5. Deactivate Student");
+                System.out.println("6. Search Student by ID");
                 System.out.println("0. Back");
                 printChoicePrompt();
 
@@ -95,21 +96,32 @@ public class Main {
                         }
                     }
                     case "3" -> {
-                        System.out.print("Enter Student ID: ");
-                        int id = readInt();
-                        service.activateStudent(id);
-                        System.out.println("Student activated.");
+                        List<Student> students = service.viewAllActiveStudents();
+                        if (students.isEmpty()) {
+                            System.out.println("No active students found.");
+                        } else {
+                            for (Student s : students) {
+                                System.out.println(
+                                        s.getId() + " | " +
+                                                s.getDisplayName() + " | " +
+                                                s.getEmail()
+                                );
+                            }
+                        }
                     }
                     case "4" -> {
                         System.out.print("Enter Student ID: ");
-                        int id = readInt();
-                        service.deactivateStudent(id);
-                        System.out.println("Student deactivated.");
+                        service.activateStudent(readInt());
+                        System.out.println("Student activated.");
                     }
                     case "5" -> {
                         System.out.print("Enter Student ID: ");
-                        int id = readInt();
-                        Student s = service.searchStudentById(id);
+                        service.deactivateStudent(readInt());
+                        System.out.println("Student deactivated.");
+                    }
+                    case "6" -> {
+                        System.out.print("Enter Student ID: ");
+                        Student s = service.searchStudentById(readInt());
                         System.out.println("ID: " + s.getId());
                         System.out.println("Name: " + s.getDisplayName());
                         System.out.println("Email: " + s.getEmail());
@@ -130,8 +142,9 @@ public class Main {
                 printSection("COURSE MANAGEMENT");
                 System.out.println("1. Create Course");
                 System.out.println("2. View All Courses");
-                System.out.println("3. Activate Course");
-                System.out.println("4. Deactivate Course");
+                System.out.println("3. View Active Courses");
+                System.out.println("4. Activate Course");
+                System.out.println("5. Deactivate Course");
                 System.out.println("0. Back");
                 printChoicePrompt();
 
@@ -165,11 +178,24 @@ public class Main {
                         }
                     }
                     case "3" -> {
+                        List<Course> courses = service.viewAllActiveCourses();
+                        if (courses.isEmpty()) {
+                            System.out.println("No active courses found.");
+                        } else {
+                            for (Course c : courses) {
+                                System.out.println(
+                                        c.getCourseId() + " | " +
+                                                c.getCourseName()
+                                );
+                            }
+                        }
+                    }
+                    case "4" -> {
                         System.out.print("Enter Course ID: ");
                         service.activateCourse(readInt());
                         System.out.println("Course activated.");
                     }
-                    case "4" -> {
+                    case "5" -> {
                         System.out.print("Enter Course ID: ");
                         service.deactivateCourse(readInt());
                         System.out.println("Course deactivated.");
