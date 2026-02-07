@@ -68,7 +68,3 @@ docs/
 
 ---
 
-## Notes
-- The application uses menu-driven navigation with multi-level menus.
-- The program never exits unexpectedly and handles all invalid inputs gracefully.
-- The design allows easy future extension, such as adding database persistence.
