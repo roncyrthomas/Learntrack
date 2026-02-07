@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b51f4050-3856-4d05-9077-907c5fa2acd7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/entity/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/entity/Trainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/enums/EnrollmentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/repository/EnrollmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/repository/impl/InMemoryCourseRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/repository/impl/InMemoryEnrollmentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/repository/impl/InMemoryStudentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/service/EnrollmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/airtribe/learntrack/util/IdGenerator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="24" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39CHjho63gQ0ipDqZyrwzRRTRHB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/robby/IdeaProjects/LearnTrackSystem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.airtribe.learntrack.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.airtribe.learntrack.Main" />
+      <module name="LearnTrackSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b51f4050-3856-4d05-9077-907c5fa2acd7" name="Changes" comment="" />
+      <created>1770195443465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770195443465</updated>
+      <workItem from="1770195446409" duration="2402000" />
+      <workItem from="1770211905482" duration="9527000" />
+      <workItem from="1770222458871" duration="3579000" />
+      <workItem from="1770264465760" duration="1201000" />
+      <workItem from="1770267320804" duration="3758000" />
+      <workItem from="1770301150700" duration="7064000" />
+      <workItem from="1770318466981" duration="24497000" />
+      <workItem from="1770455150398" duration="1430000" />
+      <workItem from="1770458583705" duration="4667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
